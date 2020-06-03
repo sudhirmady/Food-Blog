@@ -8,6 +8,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://sudhir_mady@bitbucket.org/sudhir_mady/bootstrap4.git"
+  },
+
   "author": "",
   "license": "ISC",
   "devDependencies": {
