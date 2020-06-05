@@ -12,7 +12,6 @@
     "type": "git",
     "url": "git+https://sudhir_mady@bitbucket.org/sudhir_mady/bootstrap4.git"
   },
-
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -20,6 +19,8 @@
   },
   "dependencies": {
     "bootstrap": "^4.5.0",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.12.9"
   }
