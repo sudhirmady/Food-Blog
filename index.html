@@ -95,17 +95,129 @@
                 </div>
                 <div class="col-12 col-sm-3 align-self-center">
                     <div class="form-group row">                     
-                       <a  role="button" href="#reserveTable" class="btn btn-block btn-warning text-dark"
-                       data-toggle="tooltip" data-html="true"
-                       title="or Call us at <br> <strong> +862 78965421</strong>"
-                       data-placement="bottom">
-                       <strong> Reserve Table </strong> </a>
+                       <button class="btn btn-block btn-warning text-dark" data-toggle="modal" data-target="#reserveTable">
+                       <strong> Reserve Table </strong> </button>
                     </div>
                 </div>
 
             </div>
         </div>
     </header>
+
+    <div id="reserveTable" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <div class="modal-content">
+              <div class="modal-header bg-warning">
+               <h4 class="modal-title text-dark"> Reserve a Table </h4> 
+               <button type="button" class="close" data-dismiss="modal">
+                 &times; 
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                    <div class="row">
+                        <div class="col-12 col-sm-2">
+                            Number of Guests 
+                        </div>
+                        <div class="col-12 col-sm-10">
+                          <div class="form-group row">
+                              <div class="form-radio">
+                                  <input type="radio" class="form-radio-input" name="radio" id="r1" value="">
+                                  <label class="form-radio-label" for="r1">
+                                      <strong> 1 </strong>
+                                  </label>
+                              </div> &nbsp; &nbsp;
+      
+                              <div class="form-radio">
+                                  <input type="radio" class="form-radio-input" name="radio" id="r2" value="">
+                                  <label class="form-radio-label" for="r2">
+                                      <strong> 2 </strong>
+                                  </label>
+                              </div> &nbsp; &nbsp;
+      
+                              <div class="form-radio">
+                                  <input type="radio" class="form-radio-input" name="radio" id="r3" value="">
+                                  <label class="form-radio-label" for="r3">
+                                      <strong> 3 </strong>
+                                  </label>
+                              </div>&nbsp; &nbsp;
+      
+                              <div class="form-radio">
+                                  <input type="radio" class="form-radio-input" name="radio" id="r4" value="">
+                                  <label class="form-radio-label" for="r4">
+                                      <strong> 4 </strong>
+                                  </label>
+                              </div>&nbsp; &nbsp;
+      
+                              <div class="form-radio">
+                                  <input type="radio" class="form-radio-input" name="radio" id="r5" value="">
+                                  <label class="form-radio-label" for="r5">
+                                      <strong> 5 </strong>
+                                  </label>
+                              </div>&nbsp; &nbsp;
+      
+                              <div class="form-radio">
+                                  <input type="radio" class="form-radio-input" name="radio" id="r6" value="">
+                                  <label class="form-radio-label" for="r6">
+                                      <strong> 6 </strong>
+                                  </label>
+                              </div> 
+                          </div>
+                        </div>
+                    </div><br>
+                     
+                    <div class="row">
+                        <div class="col-12 col-sm-2">
+                            Section  
+                        </div>
+
+                     <div class="col-12 col-sm-10">
+                        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                            <label class="btn btn-success ">
+                              <input type="radio" name="value" id="non-smoking"> Non-Smoking
+                            </label>
+                            <label class="btn btn-danger">
+                              <input type="radio" name="value" id="smoking"> Smoking
+                            </label>
+                        </div>
+                    </div>
+                    </div><br>
+                    
+                      <div class="row">  
+                      <div class="col-12 col-sm-2 offset-0"> 
+                           Date and Time 
+                      </div>  
+      
+                      <div class="col-12 col-sm-auto justify-content-center">
+                          <div class="row">
+                              <div class="col-12 col-sm-6"> 
+                                <div class="form-group row"> 
+                                  <input type="text" placeholder="Date" class="form-control" id="date" name="date">
+                                </div>
+                                </div> 
+                                
+                                <div class="col-12 col-sm-6">
+                                <div class="form-group row">
+                                  <input type="text" placeholder="Time" class="form-control" id="time" name="time">
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                    </div> <br>
+                  
+
+                      <div class="row">
+                         <div class="col-sm-auto offset-2"> 
+                        <button type="button" class="btn btn-secondary ml-auto" data-dismiss="modal">Cancel</button>  
+                        <button type="button" class="btn btn-primary" id="btn-reserve" name="btn-reserve"> Reserve </button>         
+                      </div>
+                    </div>
+                   </form> 
+
+              </div>
+            </div>
+        </div>
+    </div>
 
     <div class="container">
         <div class="row row-content ">
@@ -156,149 +268,10 @@
              </div>
          </div>
         </div>
-        <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-4 order-sm-last col-md-3">
-                <h3>Our Lipsmacking Culinary Creations</h3>
-            </div>
-            <div class="col col-sm order-sm-first col-md">
-                <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center"
-                     src="img/uthappizza.png" alt="uthappizza">
-                     <div class="media-body">
-                         </div>
-                </div>
-                </div>
-        </div>
 
 
-        <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-4 col-md-3">
-                <h3>This Month's Promotions</h3>
-            </div>
-            <div class="col col-sm col-md">
-                <div class="media">
-                    <div class="media-body">
-                         </div>
-                    <img src="img/buffet.png" class="img-thumbnail align-self-center" alt="buffet">
-                </div>
-            </div>
-        </div>
-
-        <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-4 order-sm-last col-md-3">
-                <h3>Meet our Culinary Specialists</h3>
-            </div>
-            <div class="col col-sm order-sm-first col-md">
-             <div class="media">
-                 <img class="d-flex mr-3 img-thumbnail align-self-center"
-                 src="img/alberto.png" alt="alberto">
-                 <div class="media-body">
-                </div>
-             </div>
-               </div>
-        </div>
-
-<div class="row row-content justify-content-center" id="reserveTable">
-  <div class="col-12 col-sm-8 align-items-center">
-     <div class="card">
-        <h3 class="card-header bg-warning text-light"> Reserve a table </h3>
-           <div class="card-body">
-             <form id="reserve-table">
-              <div class="row">
-                  <div class="col-12 col-sm-2">
-                      Number of Guests 
-                  </div>
-                  <div class="col-12 col-sm-10">
-                    <div class="form-group row">
-                        <div class="form-radio">
-                            <input type="radio" class="form-radio-input" name="radio" id="r1" value="">
-                            <label class="form-radio-label" for="r1">
-                                <strong> 1 </strong>
-                            </label>
-                        </div> &nbsp; &nbsp;
-
-                        <div class="form-radio">
-                            <input type="radio" class="form-radio-input" name="radio" id="r2" value="">
-                            <label class="form-radio-label" for="r2">
-                                <strong> 2 </strong>
-                            </label>
-                        </div> &nbsp; &nbsp;
-
-                        <div class="form-radio">
-                            <input type="radio" class="form-radio-input" name="radio" id="r3" value="">
-                            <label class="form-radio-label" for="r3">
-                                <strong> 3 </strong>
-                            </label>
-                        </div>&nbsp; &nbsp;
-
-                        <div class="form-radio">
-                            <input type="radio" class="form-radio-input" name="radio" id="r4" value="">
-                            <label class="form-radio-label" for="r4">
-                                <strong> 4 </strong>
-                            </label>
-                        </div>&nbsp; &nbsp;
-
-                        <div class="form-radio">
-                            <input type="radio" class="form-radio-input" name="radio" id="r5" value="">
-                            <label class="form-radio-label" for="r5">
-                                <strong> 5 </strong>
-                            </label>
-                        </div>&nbsp; &nbsp;
-
-                        <div class="form-radio">
-                            <input type="radio" class="form-radio-input" name="radio" id="r6" value="">
-                            <label class="form-radio-label" for="r6">
-                                <strong> 6 </strong>
-                            </label>
-                        </div> 
-                  </div>
-                  </div>
-                  
-                <div class="col-12 col-sm-2 offset-0"> 
-                     Date and Time 
-                </div>  
-
-                <div class="col-12 col-sm-6 justify-content-center">
-                    <div class="row">
-                        <div class="col-12 col-sm-6"> 
-                          <div class="form-group row"> 
-                            <input type="text" placeholder="Date" class="form-control" id="date" name="date">
-                          </div>
-                          </div> 
-                          
-                          <div class="col-12 col-sm-6">
-                          <div class="form-group row">
-                            <input type="text" placeholder="Time" class="form-control" id="time" name="time">
-                          </div>
-                        </div>
-                    </div>
-                </div>
-              </div>
-                <div class="row">
-                <div class="col-12 col-sm-3 offset-2">
-                    <button type="button" class="btn btn-primary" id="btn-reserve" name="btn-reserve"> Reserve </button>         
-                </div>
-                </div>
-            
-              
-             </form> 
-            </div>
-     </div>
-  </div>
-</div>
 </div>               
 
-                            
-
-                        
-                         
-                         
-                         
-                        
-                        
-            
-    
- 
     <!-- Progress & Alert
         <div class="progress">
             <div class="progress-bar  bg-success"
@@ -363,11 +336,7 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            $('[data-toggle="tooltip"]').tooltip();
-        });
-    </script> 
+
 </body>
 
 </html>
