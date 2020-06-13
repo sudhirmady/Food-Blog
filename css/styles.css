@@ -9,10 +9,10 @@
   min-height: 400px; }
 
 .footer {
-  background-color: #1d1e64;
+  background-color: #b6b6e0;
   margin: 0px auto;
   padding: 20px 0px;
-  color: whitesmoke; }
+  color: black; }
 
 .jumbotron {
   margin: 0px auto;
@@ -22,8 +22,7 @@
 
 address {
   font-size: 80%;
-  margin: 0px;
-  color: whitesmoke; }
+  margin: 0px; }
 
 body {
   padding: 50px 0px 0px 0px;
@@ -53,3 +52,11 @@ body {
   position: absolute;
   bottom: 0px;
   z-index: 1; }
+
+.modal .modal-content {
+  background: #b6b6e0; }
+  .modal .modal-content .modal-header {
+    background: #15307c;
+    color: floralwhite; }
+    .modal .modal-content .modal-header .close {
+      color: floralwhite; }
